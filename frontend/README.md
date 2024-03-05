@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + Eslint
+# MONGO + EXPRESS + React + NESTJS
 
 ## Frontend
 
