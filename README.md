@@ -1,5 +1,8 @@
 # MONGO + EXPRESS + React + NESTJS
 
+## Description
+Our project combines React for building the front-end, NestJS for the back-end, and Material-UI (MUI) for consistent design. With React, we've created a user-friendly interface where users can be easily created and managed. The form for adding users is powered by React, ensuring smooth interactions and real-time updates. Behind the scenes, NestJS manages the server-side operations such as storing and fetching user data, offering a reliable and scalable solution. Material-UI adds a polished look and feel to the interface, making it visually appealing and easy to navigate for users.
+
 ## Before Installation
 
 ### Version
