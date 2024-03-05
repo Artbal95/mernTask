@@ -11,7 +11,7 @@ $ typeScript >= v4
 
 ### Environment
 ```bash
-# Create .env.local file with this parameters
+# Create .env file with this parameters
 VITE_APP_BASE_URL
 VITE_APP_BASE_PREFIX
 ```

@@ -13,14 +13,13 @@ import { Match } from '../../../common/decorators/match.decorator';
 export class CreateUserDto {
   @IsString()
   @MaxLength(32, {
-    message:
-      'Title is too long. Maximal length is $constraint1 characters, but actual is $value',
+    message: 'Title is too long. Maximal length is $constraint1 characters',
   })
   @IsNotEmpty()
   userName: string;
 
   @Min(1)
-  @Max(9999999999)
+  @Max(9999999999, { message: 'phone number must be less than 10 characters' })
   @IsInt({ message: 'phone should not be empty' })
   @IsNotEmpty()
   phone: number;
